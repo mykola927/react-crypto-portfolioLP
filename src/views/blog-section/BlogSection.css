@@ -1,0 +1,31 @@
+
+  .image-resize{
+      height: 160px;
+      width: 100%;
+  }
+  .card-resize{
+      height: 340px;
+      width: 240px;
+  }
+ 
+  @media only screen and (max-width: 786px){
+  .card-deck{
+    flex-direction: row;
+    flex-flow: wrap;
+  }
+  .card-deck .card-resize{
+    margin-bottom: 10px;
+  }
+  .container-box{
+    display: contents;
+  }
+}
+  
+  .style {
+    font-size: 16px;
+    color: black;
+  }
+  .card-title{
+      font-size: 1em;
+  }
+  
